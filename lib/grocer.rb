@@ -12,5 +12,6 @@ def consolidate_cart(cart)
   my_cart = {}
   cart.each do |things|
     things.each do |name, value|
-      if my_cart[name] == nil?
-        my_cart[name] = cart[]
+  end
+  binding.pry
+end

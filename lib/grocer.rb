@@ -11,10 +11,4 @@ end
 def consolidate_cart(cart)
   my_cart = {}
   cart.each do |things|
-    things.each do |name, value|
-      value
-  end
-  binding.pry
-end
-
-end
+    things.each do |na

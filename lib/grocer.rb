@@ -15,4 +15,5 @@ def consolidate_cart(cart)
   end
   binding.pry
 end
+return value
 end

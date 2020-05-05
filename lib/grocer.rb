@@ -9,7 +9,8 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  my_cart = []
+  my_cart = {}
   cart.each do |things|
     things.each do |name, value|
-      if things[name] == 
+      if my_cart[name] == nil?
+        

@@ -13,9 +13,9 @@ def consolidate_cart(cart)
   cart.each do |things|
     if things[:item] == name
       my_cart.push(things)
-      binding.pry
     end
   end
+  binding.pry
   return my_cart
 end
 

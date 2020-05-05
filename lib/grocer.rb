@@ -11,7 +11,8 @@ end
 def consolidate_cart(cart)
   my_cart = []
   cart.each do |things|
-    if my_cart[]
+    if my_cart[thing].nil?
+      my_cart.push(things[:count] = 1)
   
   
  new_hash = {}

@@ -10,7 +10,7 @@ end
 
 def consolidate_cart(cart)
   my_cart = []
-  i = 1
+  i = 0
   j = 0
   cart.each do |things|
     things[:count] = i

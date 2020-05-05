@@ -11,4 +11,5 @@ end
 def consolidate_cart(cart)
   my_cart = []
   cart.each do |things|
-    things.each do |
+    things.each do |name, value|
+      if things[name] == 

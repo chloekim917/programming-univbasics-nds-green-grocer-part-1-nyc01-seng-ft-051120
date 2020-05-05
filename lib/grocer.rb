@@ -10,7 +10,7 @@ end
 def consolidate_cart(cart)
   mycart = find_item_by_name_in_collection(name, collection)
   mycart[:count] = 0 
-  collection.each do |
+  return mycart
 end
 
 

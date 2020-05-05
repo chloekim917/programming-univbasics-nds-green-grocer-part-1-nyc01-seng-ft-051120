@@ -12,9 +12,9 @@ def consolidate_cart(cart)
   my_cart = {}
   cart.each do |things|
     things.each do |name, value|
+      name
   end
- 
+  binding.pry
 end
-return value
+
 end
- binding.pry

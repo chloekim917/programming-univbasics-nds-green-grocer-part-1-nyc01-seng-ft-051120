@@ -11,11 +11,10 @@ end
 def consolidate_cart(cart)
   my_cart = []
   cart.each do |things|
-    if things[:item] == name
+    if things[:item] == cart
       my_cart.push(things)
     end
   end
-  binding.pry
   return my_cart
 end
 

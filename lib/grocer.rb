@@ -9,6 +9,11 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
+  my_cart = []
+  cart.each do |things|
+    if my_cart[]
+  
+  
  new_hash = {}
  cart.each do |things|
    things.each do |name, price_hash|

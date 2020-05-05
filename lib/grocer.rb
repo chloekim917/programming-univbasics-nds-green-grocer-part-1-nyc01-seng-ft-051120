@@ -11,12 +11,9 @@ end
 def consolidate_cart(cart)
   my_cart = []
   cart.each do |things|
-    if things[:item] == cart
-      my_cart.push(things)
-    end
+    my_cart.push(things[:count] = 1)
   end
   return my_cart
 end
-
 
   

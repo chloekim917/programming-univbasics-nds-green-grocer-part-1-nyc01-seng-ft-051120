@@ -8,10 +8,13 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  mycart = find_item_by_name_in_collection(name, collection)
-  mycart[:count] = 0 
-  cart.each do |items|
-    if items
+  my_cart = []
+  cart.each do |things|
+    if things[:item] == name
+      my_cart.push(things)
+    end
+  end
+  return my_cart
 end
 
 

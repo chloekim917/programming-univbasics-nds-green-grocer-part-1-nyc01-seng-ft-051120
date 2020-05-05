@@ -11,7 +11,7 @@ end
 def consolidate_cart(cart)
   my_cart = []
   cart.each do |things|
-    my_cart.push(things[:count])
+    my_cart.push(things)
   end
   return my_cart
 end

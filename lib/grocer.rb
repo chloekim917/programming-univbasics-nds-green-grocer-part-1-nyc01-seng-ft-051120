@@ -20,3 +20,4 @@ def consolidate_cart(cart)
   end
   my_cart
 end
+binding.pry

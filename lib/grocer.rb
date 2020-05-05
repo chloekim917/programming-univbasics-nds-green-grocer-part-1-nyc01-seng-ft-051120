@@ -16,8 +16,9 @@ def consolidate_cart(cart)
     things[:count] = i
     my_cart.push(things)
     if my_cart[:item] == cart[j][:item]
-      i+=
+      i += 1
     end
+    j += 1
   end
   return my_cart
 end

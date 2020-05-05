@@ -14,9 +14,8 @@ def consolidate_cart(cart)
     if my_cart.include?(things) == false
       things[:count] = 1
       my_cart.push(things)
-      binding.pry
     else 
-      my_cart[things][:count] +=1
+      things[:count] +=1
     end
   end
   my_cart

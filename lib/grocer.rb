@@ -13,4 +13,4 @@ def consolidate_cart(cart)
   cart.each do |things|
     things.each do |name, value|
       if my_cart[name] == nil?
-        
+        my_cart[name] = cart[]
